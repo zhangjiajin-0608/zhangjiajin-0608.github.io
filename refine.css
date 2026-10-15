@@ -1,6 +1,6 @@
 /* Resume-poster visual system, while keeping the WowPage information architecture. */
-@import url("poster-tune.css?v=layout36-v3");
-@import url("ui-tokens.css?v=white-base");
+@import url("poster-tune.css?v=layout36-v4");
+@import url("ui-tokens.css?v=white-base-v2");
 body { color:#25336d; background:radial-gradient(circle at 9% 8%,#e5edff 0 8%,transparent 26%),radial-gradient(circle at 95% 18%,#eee8ff 0 8%,transparent 27%),linear-gradient(135deg,#f9fbff,#eef3ff 54%,#fbf9ff); }
 .masthead { background:rgba(255,255,255,.76); border-bottom:1px solid rgba(161,182,244,.32); box-shadow:0 5px 18px rgba(74,106,181,.06); backdrop-filter:blur(14px); }
 .masthead__menu-item a { color:#3d4d8f; font-weight:650; }

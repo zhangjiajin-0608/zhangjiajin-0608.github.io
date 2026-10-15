@@ -27,7 +27,7 @@ h2#experience ~ .detail-card summary { font-size: 13px !important; }
 
 /* Geometry and layers */
 .experience-card, .publication-card, .project-card { border-radius: var(--ui-card-radius) !important; }
-h2#experience ~ .detail-card { margin: 7px 0 7px 34px !important; padding: 9px 0 9px 17px !important; border: 0 !important; border-left: 2px solid var(--ui-line) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+h2#experience ~ .detail-card { margin: 7px 0 7px 34px !important; padding: 9px 0 9px 17px !important; border: 0 !important; border-left: 2px solid var(--ui-line) !important; border-radius: 0 !important; background: #ffffff !important; box-shadow: none !important; }
 .side-card { border-radius: var(--ui-card-radius) !important; }
 .skill-pills span, .tags-card span, .author__urls-wrapper .btn { border-radius: var(--ui-pill-radius) !important; }
 .experience-info p, .detail-card p, .publication-card p, .project-card p { margin: 2px 0 !important; }
