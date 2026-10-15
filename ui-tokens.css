@@ -1,0 +1,39 @@
+/* Final UI tokens. !important is intentional: this file normalizes the inherited WowPage rules. */
+:root {
+  --ui-ink: #1e306f;
+  --ui-body: #53618c;
+  --ui-muted: #7585b2;
+  --ui-line: #cfdcff;
+  --ui-link: #ca6f6f;
+  --ui-card-radius: 12px;
+  --ui-pill-radius: 999px;
+}
+
+/* Type scale */
+.page__content { font-size: 13px !important; line-height: 1.58 !important; }
+.page__content h1.main-heading { font-size: 24px !important; }
+.page__content h2 { font-size: 18px !important; }
+.experience-info, .detail-card, .publication-card, .project-card { font-size: 13px !important; line-height: 1.58 !important; }
+.experience-info strong, .publication-card strong, .project-card strong { font-size: 14px !important; }
+.experience-info > strong { font-size: 14px !important; }
+h2#experience ~ .detail-card summary { font-size: 13px !important; }
+.venue, .role-line { font-size: 12px !important; }
+.experience-info p strong, .detail-card p strong, .publication-card p strong, .project-card p strong { font-size: 13px !important; }
+.author__name { font-size: 28px !important; }
+.author__bio, .author__urls, .side-card { font-size: 13px !important; }
+.author__bio, .author__urls, .author__urls li, .author__urls a, .side-card, .side-card p { font-size: 13px !important; }
+.side-card h3 { font-size: 17px !important; }
+.tags-card span { font-size: 12px !important; }
+
+/* Geometry and layers */
+.experience-card, .publication-card, .project-card { border-radius: var(--ui-card-radius) !important; }
+h2#experience ~ .detail-card { margin: 7px 0 7px 34px !important; padding: 9px 0 9px 17px !important; border: 0 !important; border-left: 2px solid var(--ui-line) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+.side-card { border-radius: var(--ui-card-radius) !important; }
+.skill-pills span, .tags-card span, .author__urls-wrapper .btn { border-radius: var(--ui-pill-radius) !important; }
+.experience-info p, .detail-card p, .publication-card p, .project-card p { margin: 2px 0 !important; }
+
+/* Consistent color hierarchy */
+.experience-info strong, .publication-card strong, .project-card strong, .detail-card summary { color: var(--ui-ink) !important; }
+.experience-info, .detail-card, .publication-card, .project-card { color: var(--ui-body) !important; }
+.venue, .role-line { color: var(--ui-muted) !important; }
+.page__content a { color: var(--ui-link) !important; font-style: italic !important; }
